@@ -1,7 +1,7 @@
 
 
 Pod::Spec.new do |s|
-
+ 
 
   s.name         = "WKCategory" 
   s.version      = "0.0.1"  
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.source_files  = "Classes", "WKCatogery/Classes/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
-  s.public_header_files = "WKCatogery/Classes/UIKit/UI_Categories.h","WKCatogery/Classes/Foundation/Foundation_Category.h","WKCatogery/Classes/**/*.h"
+  s.public_header_files = "WKCategory/Classes/UIKit/UI_Categories.h","WKCategory/Classes/Foundation/Foundation_Category.h","WKCategory/Classes/**/*.h"
 
   s.requires_arc = true
  
