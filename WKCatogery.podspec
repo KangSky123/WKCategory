@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
 
-  s.name         = "WKCategory"
+  s.name         = "WKCategery" 
   s.version      = "0.0.1"  
   s.summary      = "all kinds of categories for iOS develop"
 
