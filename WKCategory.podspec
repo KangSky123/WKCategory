@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   s.license      = "MIT"
   s.license      = { :type => "MIT", :file => "LICENSE" }
-
+ 
 
   s.author             = { "HuangWenKang" => "417035863@qq.com" }
 
@@ -25,10 +25,10 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/KangSky123/WKCategory.git", :tag => "0.0.1" }
 
 
-  s.source_files  = "Classes", "WKCatogery/Classes/**/*.{h,m}"
+  s.source_files  = "Classes", "Classes/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
-  s.public_header_files = "WKCategory/Classes/UIKit/UI_Categories.h","WKCategory/Classes/Foundation/Foundation_Category.h","WKCategory/Classes/**/*.h"
+  s.public_header_files = "Classes/UIKit/UI_Categories.h","Classes/Foundation/Foundation_Category.h","Classes/**/*.h"
 
   s.requires_arc = true
  
